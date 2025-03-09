@@ -1,7 +1,10 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { FaGithub } from "react-icons/fa6";
 const Contact = () => {
   return (
+    <>
+     <Helmet><title>Khaled | Contact</title></Helmet>
     <div className='flex justify-evenly  items-center'>
       <div>
       <ul className=' pl-4 text-sm mt-2'>
@@ -19,6 +22,7 @@ const Contact = () => {
         </ul>
       </div>
     </div>
+    </>
   );
 };
 

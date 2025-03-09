@@ -1,10 +1,11 @@
-
 import React from 'react';
 import image from '../../public/profile-image.jpeg';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
   return (
     <>
+    <Helmet><title>Khaled </title></Helmet>
     {/* Divider - Show only on Desktop */}
     <div className="hidden lg:block">
         <div className="divider"></div>
